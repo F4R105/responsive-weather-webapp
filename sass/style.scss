@@ -235,6 +235,17 @@ body {
                 font-size: 0.7rem;
                 color: grey;
                 display: flex;align-items: center;justify-content: center;
+                flex-direction: column;
+
+                a {
+                    text-decoration: none;
+                    color: grey;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: var(--desktop-accent-color);
+                    }
+                }
             }
         }
 
