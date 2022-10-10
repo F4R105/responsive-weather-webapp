@@ -1,0 +1,27 @@
+@media screen and (max-width: 550px) {
+    
+    body {
+
+        #screen {
+
+            main {
+                width: 100vh;
+
+                #weather_info_container {
+                    width: 100%;
+                }
+            }
+
+            #menu {
+                width: 100vw;
+            }
+
+            #desktop_side_image {
+                display: none;
+            }
+        }
+
+
+    }
+
+}

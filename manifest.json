@@ -1,0 +1,24 @@
+{
+    "name": "Hali ya Joto",
+    "short_name": "Kipima Joto",
+    "description": "Pata taarifa za hali ya joto la mkoa unaoishi",
+    "start_url": ".",
+    "background_color": "#e7e7e7",
+    "theme_color": "#fbe565ff",
+    "display": "standalone",
+    "icons":
+        [{
+            "src": "icons/myLogo.png",
+            "sizes": "427x427",
+            "type": "image/png"
+        },{
+            "src": "icons/myLogo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },{
+            "src": "icons/myLogo_maskable.png",
+            "sizes": "427x427",
+            "type": "image/png",
+            "purpose": "maskable"
+        }]
+}
