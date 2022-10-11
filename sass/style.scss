@@ -119,12 +119,38 @@ body {
                     font-size: 9rem;
                     color: var(--desktop-secondary-color);
                     pointer-events: none;
+                    display: flex;align-items: center;justify-content: center;
+                    position: relative;
+
+                    sup {
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 2rem;
+                        position: absolute;
+                        top: 30px;
+                        right: -20px;
+                    }
+
+                    #loader {
+                        width: 30px;
+                        aspect-ratio: 1/1;
+                        border-top: 2px solid var(--desktop-accent-color);
+                        // border-left: 2px solid var(--desktop-accent-color);
+                        // border-right: 2px solid var(--desktop-accent-color);
+                        border-radius: 50%;
+                        animation: loader 0.8s linear infinite;
+                    }
+
+                    @keyframes loader {
+                        0% { transform: rotate(0deg);}
+                        100% {transform: rotate(360deg);}
+                    }
                 }
 
                 #location {
                     font-style: italic;
                     color: var(--desktop-secondary-color);
                     pointer-events: none;
+                    margin-top: auto;
                 }
             }
         }
