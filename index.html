@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app</title>
     <link rel="stylesheet" href="css/style.min.css">
-    <script src="js/script.js" defer></script>
-    <script src="js/menu.js" defer></script>
 </head>
 <body>
     <nav>
@@ -32,21 +30,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu_item">
+                <!-- <div class="menu_item">
                     <p class="menu_item_title">Theme</p>
                     <div>
                         <p>Dark Mode</p>
                         <div id="toggler">
                         </div>
                     </div>
-                </div>
-                <div class="menu_item">
-                    <p class="menu_item_title">Theme</p>
-                    <div>
-                        <p>Dark Mode</p>
-                        <div id="toggler"></div>
-                    </div>
-                </div>
+                </div> -->
             </div>
             <footer>
                 <span>Copyright &copy; 2022 Faraji Kajubu</span>
@@ -56,14 +47,12 @@
         <main>
             <div id="weather_info_container">
                 <div id="weather_icon">
-                    <img src="ico/cloudy (1).png" alt="">
+                    <img alt="weather icon">
                 </div>
                 <div id="time_of_the_day">
                     Asubuhi Njema
                 </div>
-                <div id="date">
-                    Jumatatu, Tarehe 10 Oktoba
-                </div>
+                <div id="date"></div>
                 <div id="temperature">
                     21
                 </div>
@@ -72,9 +61,11 @@
                 </div>
             </div>
         </main>
-        <div id="desktop_side_image">
-            
-        </div>
+        <div id="desktop_side_image"></div>
     </div>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/time_of_the_day.js"></script>
+    <script src="js/date.js"></script>
 </body>
 </html>
